@@ -66,12 +66,12 @@ export default class Command extends BaseCommand {
 🔮 ${this.client.config.prefix}beach
 💙 ${this.client.config.prefix}snow
 💙 ${this.client.config.prefix}snowc
-💙ENJOY_Made by Lord Savage 🕊️
+💙ENJOY_Made by 𝘼𝙆𝙐𝙈𝘼
 ┌────────────┈❅
 │
-│   💙 *Elaina*
+│   🔥 *𝙉𝘼𝙏𝙎𝙐*
 │
-│   *Lord Savage*🕊️
+│   *𝘼𝙆𝙐𝙈𝘼*🔥
 │
 └────────────┈⁂
 
