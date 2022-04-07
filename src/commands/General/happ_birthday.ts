@@ -36,7 +36,7 @@ export default class Command extends BaseCommand {
         await M.reply(
             await request.buffer(
                 pfp ||
-                    'https://i.ibb.co/KzWgj18/IMG-20220407-WA0372.jpg'
+                    'https://wallpaperaccess.com/full/5304840.png'
             ),
             MessageType.image,
             undefined,
