@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
         const filename = `${tmpdir()}/${Math.random().toString(36)}`
         const sticker:any = await  new Sticker(buffer, {
             pack: pack[1] || 'Im not blashing Baka!', 
-            author: pack[2] || ' Lord Savage 🕊️', 
+            author: pack[2] || ' 𝘼𝙆𝙐𝙈𝘼', 
             quality: 50 
         }).build();
           fs.writeFileSync(`${filename}.webp`,sticker);
