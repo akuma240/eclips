@@ -146,7 +146,7 @@ export default class MessageHandler {
       return void null;
     if (!command)
       return void M.reply(
-        `🍁𝑨𝒉𝒉 𝒔𝒉𝒊𝒕 𝒎𝒂𝒏 𝒚𝒐𝒖 𝒅𝒐𝒏'𝒕 𝒌𝒏𝒐𝒘 𝒉𝒐𝒘 𝒕𝒐 𝒕𝒚𝒑𝒆 *${this.client.config.prefix}help* 𝒘𝒆𝒍𝒍 𝒇𝒊𝒏𝒆 𝒊𝒏 𝒕𝒉𝒂𝒕 𝒄𝒂𝒔𝒆 𝒚𝒐𝒖 𝒘𝒊𝒍𝒍 𝒅𝒊𝒆 𝒉𝒆𝒓𝒆.`
+        `🔥𝙎𝙀𝙉𝘿 𝙃𝙄𝙈/𝙃𝙀𝙍 𝙁𝙇𝙔𝙄𝙉𝙂 ! *${this.client.config.prefix}help* 𝙁𝙄𝙍𝙀 𝘿𝙍𝘼𝙂𝙊𝙉 𝙁𝙄𝙎𝙏👊🔥.`
       );
     const user = await this.client.getUser(M.sender.jid);
     if (user.ban) return void M.reply("𝕐𝕠𝕦'𝕣𝕖 𝕓𝕒𝕟𝕟𝕖𝕕 𝕗𝕣𝕠𝕞 𝕌𝕤𝕚𝕟𝕘 𝕥𝕙𝕖 𝕔𝕠𝕞𝕞𝕒𝕟𝕕𝕤.");
