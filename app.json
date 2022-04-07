@@ -1,5 +1,5 @@
 {
-  "name": "Lord-savage",
+  "name": "NATSU",
   "description": "A WhatsApp Bot With Rich Anime Features. ",
   "keywords": [
       "bot",
@@ -12,7 +12,7 @@
       "whatsapp-botto"
   ],
   "website": "https://github.com/ShinNouzen/Chitoge#readme",
-  "repository": "https://github.com/smokey-vines/Savage.git",
+  "repository": "https://github.com/akumasugi/Savage.git",
   "logo": "https://telegra.ph/file/11e741582367e0d63c66f.jpg",
   "success_url": "/",
   "env": {
