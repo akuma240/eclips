@@ -31,17 +31,17 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`Profile Picture not Accessible of ${username}`)
             pfp =
-                'https://wallpaperaccess.com/full/5304840.png'
+                'https://i.ibb.co/KzWgj18/IMG-20220407-WA0372.jpg'
         }
         await M.reply(
             await request.buffer(
                 pfp ||
-                    'https://wallpaperaccess.com/full/5304840.png'
+                    'https://i.ibb.co/KzWgj18/IMG-20220407-WA0372.jpg'
             ),
             MessageType.image,
             undefined,
             undefined,
-            `Cheers to you for another trip around the sun The day is all yours 💙Maybe you receive the greatest of joys and everlasting bliss. You are a gift yourself, and you deserve the best of everything. Happy birthday•\n 🥂🎂💙 *HAPPY BIRTHDAY* 🎂🥂\n🥳🥳🥳✨ Enyoy this special day in celebration of a most wonderful you🙂🥳🤩😍  *@${user.split('@')[0]}*\n\n`
+            `Cheers to you for another trip around the sun The day is all yours 🔥Maybe you receive the greatest of joys and everlasting bliss. You are a gift yourself, and you deserve the best of everything. Happy birthday•\n 🥂🎂🔥 *HAPPY BIRTHDAY* 🎂🥂\n🥳🥳🥳✨ Enyoy this special day in celebration of a most wonderful you🙂🥳🤩😍  *@${user.split('@')[0]}*\n\n`
         )
     }
 }
