@@ -17,14 +17,14 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://telegra.ph/file/17b41e81f52736e6cf50f.mp4'
+            'https://telegra.ph/file/6f24b9d6143be41a2def3.mp4'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `*━━━❰ FAQ ❱━━━*
 
-📮 *Q1:* How do I add Elaina bot in my group?
+📮 *Q1:* How do I add NATSU bot in my group?
 📑 *A:* Send the group link in the bot's or owner's DM &  it will join.
 ᚖ ────── ✪ ────── ᚖ
 
@@ -44,10 +44,10 @@ export default class Command extends BaseCommand {
 📑 *A:* Calling the bot is at your own pleasure but with consequences thus you will be blocked instantly for calling the bot!
 ᚖ ────── ✪ ────── ᚖ
 
-📮 *Q6:* Where can I find Elaina bot?
-📑 *A:* Elaina is one of the bots owned by *Lord Savage 🕊️* group. Incase you need other bots, use the command *!support* & you will get support group link in your DM.
+📮 *Q6:* Where can I find NATSU bot?
+📑 *A:* NATSU is one of the bots owned by *𝘼𝙆𝙐𝙈𝘼* group. Incase you need other bots, use the command *!support* & you will get support group link in your DM.
 ᚖ ────── ✪ ────── ᚖ
-📮 *Q7:* Can you hire a bot from *Lord Savage 🕊️?*
+📮 *Q7:* Can you hire a bot from *𝘼𝙆𝙐𝙈𝘼?*
 📑 *A:* Based on the copyrights, we don't hire bots to anyone thus the bots are free to use.
 ᚖ ────── ✪ ────── ᚖ
 
@@ -55,12 +55,12 @@ export default class Command extends BaseCommand {
 📑 *A:* There are two main reasons for that, either the bot is lagging due to data traffic or the bot is inactive.
 ᚖ ────── ✪ ────── ᚖ
 
-📮 *Q9:* How can I create a bot like Elaina?
-📑 *A:* You can't deploy a version of Elaina thus it's a copy of Chitoge, edited & added with some commands resulting the bot to be a private source. Therefore, you can deploy the main bot *(Elaina)* here👇
- 🎗 https://github.com/elaina/lordsavage.
+📮 *Q9:* How can I create a bot like NATSU?
+📑 *A:* You can't deploy a version of NATSU thus it's a copy of Chitoge, edited & added with some commands resulting the bot to be a private source. Therefore, you can deploy the main bot *(NATSU)* here👇
+ 🎗 https://github.com/.
 ᚖ ────── ✪ ────── ᚖ
 
-📮 *Q10:* Is the project or the *Lord Savage 🕊️* group sponsored?
+📮 *Q10:* Is the project or the *𝘼𝙆𝙐𝙈𝘼* group sponsored?
 📑 *A:* Of course not, we're not sponsored either way but it could be your own pleasure to do that thus this is a non-profit organization.
 ᚖ ────── ✪ ────── ᚖ` }
         )
