@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
 		const amount: number = chitoge[1];
 		if (!amount)
 			return void M.reply(
-				`Give me the number , 👾!\n\nExample: *${this.client.config.prefix}pin Elaina|5*`
+				`Give me the number , 🔥!\n\nExample: *${this.client.config.prefix}pin Elaina|5*`
 			);
 		if (amount > 20)
 			return void M.reply(`Do you want me to spam in this group?`);
@@ -40,7 +40,7 @@ export default class Command extends BaseCommand {
             return void M.reply(e.message)
         })
         for (let i = 0; i < amount; i++) {
-			const res = `💙`;
+			const res = `🔥`;
 			this.client.sendMessage(
 				M.from,
 				{ url: data.result[Math.floor(Math.random() * data.result.length)] },
