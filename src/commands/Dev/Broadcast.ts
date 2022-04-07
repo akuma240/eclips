@@ -29,12 +29,8 @@ export default class Command extends BaseCommand {
 			return void (await M.reply(`Please provide the Broadcast Message.`));
 		const term = joined.trim();
 		const images = [
-			"https://telegra.ph/file/a035a5447e04da6a771ed.jpg",
-			"https://telegra.ph/file/a4aac6c7a5df508fea9a4.jpg",
-			"https://telegra.ph/file/73c40cc251e52fbd2df0e.jpg",
-			"https://telegra.ph/file/42d4d2932912e24287dc2.jpg",
-			"https://telegra.ph/file/11e741582367e0d63c66f.jpg",
-			"https://telegra.ph/file/8f168610c56290cdcb347.jpg",
+			"https://c.tenor.com/_8Yhn1O5qDgAAAPo/natsu-dragneel-smile.mp4",
+			"https://c.tenor.com/m9ipnIinnLIAAAPo/fairy-tail-natsu-dragneel.mp4",
 		];
 		const selected = images[Math.floor(Math.random() * images.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -45,7 +41,7 @@ export default class Command extends BaseCommand {
 			.map((jids) => (jids.includes("g.us") ? jids : null))
 			.filter((v) => v);
 		for (let i = 0; i < chats.length; i++) {
-			const text = `*💙「 ELAINA BROADCAST 」💙*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
+			const text = `*🔥「 NATSU BROADCAST 」🔥*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
 			this.client.sendMessage(chats[i], { url: selected }, MessageType.image, {
 				caption: `${text}`,
 				contextInfo: {
@@ -53,6 +49,6 @@ export default class Command extends BaseCommand {
 				},
 			});
 		}
-		await M.reply(`✅ Broadcast Message sent to *${chats.length} groups*.`);
+		await M.reply(`🔥 Broadcast Message sent to *${chats.length} groups*.`);
 	};
 }
