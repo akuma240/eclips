@@ -7,8 +7,8 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'akuma',
-            aliases: ['support,akuma'],
+            command: 'casino',
+            aliases: ['support,casino'],
             description: 'Gets the group links',
             category: 'extras',
             usage: `${client.config.prefix}casino`,
@@ -19,8 +19,9 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         (await this.client.sendMessage(
         M.sender.jid,
-                `*🔥akuma Group🔥*\n\n
-                 *akuma🔥: Fun Group*:https://chat.whatsapp.com/H6aIaXmMLglGL7VnekVYDG\n\n
+                `*🍁Casino Group🍁*\n\n
+                 *Lord Savage🕊️: Fun Group:https://chat.whatsapp.com/EOB2UescDz78rTYG4MQWe1\n\n
+                 *Lord Savage🕊️ Gambling: 𝗖𝗮𝘀𝗶𝗻𝗼 *:https://chat.whatsapp.com/Gy1JemBGs9wLjVEfzbRJ21
            MessageType.text
         ))
         const n = [
