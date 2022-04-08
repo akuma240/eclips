@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
         M.sender.jid,
         `    🔥MY MASTER GROUPS🔥
         
-       *🔥ELAINA support:🔥* *https://chat.whatsapp.com/H6aIaXmMLglGL7VnekVYDG:*
+       *🔥NATSU support:🔥* *https://chat.whatsapp.com/H6aIaXmMLglGL7VnekVYDG:*
         *🔥support🔥* FACEBOOK GROUP🎉:*https://facebook.com/groups/600441174428472/*`,
            MessageType.text
         ))
