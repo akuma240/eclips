@@ -86,7 +86,7 @@ export default class Command extends BaseCommand {
       })();
       return {
         categories,
-        pack: pack[1] || "𝙈𝙄𝙍𝘼❤️",
+        pack: pack[1] || "𝙕𝙀𝙍𝙊❤️",
         author: pack[2] || "𝘼𝙆𝙐𝙈𝘼",
         quality,
         type: StickerTypes[
