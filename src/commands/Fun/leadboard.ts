@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
     //   M.reply(JSON.stringify(lb));
 
     // M.reply('total user heuhue :'+indexes.toString())
-    const message = ["*💙Elaina💙* :" + indexes.toString() + ""];
+    const message = ["*🔥𝙉𝘼𝙏𝙎𝙐🔥* :" + indexes.toString() + ""];
     const mention = [];
     let i = 0;
     for (const users of lb) {
@@ -51,7 +51,7 @@ export default class Command extends BaseCommand {
     }
     console.log(message);
     M.reply(
-      await request.buffer("https://telegra.ph/file/42d4d2932912e24287dc2.jpg"),
+      await request.buffer("https://i.ibb.co/zXtHSYD/a1ce72a00be1fe93d701f265e49b8dc9.jpg"),
       MessageType.image,
       undefined,
       mention,
