@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
     ];
 
     const buttonMessage: any = {
-      contentText: `𝙄'𝙈 𝘼𝙇𝙇 𝙁𝙄𝙍𝙀𝘿 𝙐𝙋!!!!!!,🔥🔥🔥🔥`,
+      contentText: `𝙄'𝙈 𝘼𝙇𝙇 𝙁𝙄𝙍𝙀𝘿 𝙐𝙋!!,🔥🔥`,
       footerText: "🔥 🅽🅰🆃🆂🆄 🅳🆁🅰🅶🅽🅴🅴🅻 🔥",
       buttons: buttons,
       headerType: 1,
