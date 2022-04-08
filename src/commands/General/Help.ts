@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `*🔥ℍ𝕖𝕝𝕝𝕠*🔥! *${M.sender.username}*\n\n•╚『🅳🆁🅰🅶🅽🅴🅴🅻』╝\n•*𝙡'𝙢 𑁍𝙉𝘼𝙏𝙎𝙐𑁍 𝓐 𝓫𝓸𝓽 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 𝘼𝙆𝙐𝙈𝘼 𝓽𝓸 𝓶𝓪𝓴𝓮 𝔂𝓸𝓾𝓻 𝓦𝓱𝓪𝓽𝓼𝓪𝓹𝓹 𝓮𝓷𝓳𝓸𝔂𝓪𝓫𝓵𝓮*\n\n━━❰•Note✞︎☠︎︎𖣘Side･❱━━\n\n╚『𝙍𝙚𝙖𝙙 𝙏𝙝𝙚 𝙍𝙪𝙡𝙚𝙨』╝\n𝑴𝒚 𝒏𝒂𝒎𝒆 𝒊𝒔 𝘼𝙆𝙐𝙈𝘼🔥\n\n🅼🆈 🅿🆁🅴🅵🅸🆇 🅸🆂 #\n\n1 | *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups to avoid Blocking\n\n`
+            let text = `*🔥ℍ𝕖𝕝𝕝𝕠*🔥! *${M.sender.username}*\n\n•╚『🅳🆁🅰🅶🅽🅴🅴🅻』╝\n•*𝙡'𝙢 𑁍𝙉𝘼𝙏𝙎𝙐𑁍 𝘼 𝙗𝙤𝙩 𝙘𝙧𝙚𝙖𝙩𝙚𝙙 𝙗𝙮 𝘼𝙆𝙐𝙈𝘼 𝙩𝙤 𝙢𝙖𝙠𝙚 𝙮𝙤𝙪𝙧 𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙚𝙣𝙟𝙤𝙮𝙖𝙗𝙡𝙚*\n\n━━❰•Note✞︎☠︎︎𖣘Side･❱━━\n\n╚『𝙍𝙚𝙖𝙙 𝙏𝙝𝙚 𝙍𝙪𝙡𝙚𝙨』╝\n𝑴𝒚 𝒏𝒂𝒎𝒆 𝒊𝒔 𝘼𝙆𝙐𝙈𝘼🔥\n\n🅼🆈 🅿🆁🅴🅵🅸🆇 🅸🆂 #\n\n1 | *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups to avoid Blocking\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `╚━❰🔥𝑩𝒐𝒕 ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}•𖣘❱━╝\n• \`\`\`${categories[
@@ -54,7 +54,7 @@ export default class Command extends BaseCommand {
 │   🔥 *𝙃𝙀𝙇𝙇𝙊*
   𝙁𝙊𝙇𝙇𝙊𝙒 𝘽𝙊𝙏 𝙊𝙒𝙉𝙀𝙍 𝙁𝘽 𝙂𝙍𝙊𝙐𝙋
   https://facebook.com/groups/600441174428472/
-│    🔥*𝙁𝘼𝙄𝙍𝙔 𝙏𝘼𝙄𝙇* 𑁍𖣘߷☆✯
+│    🔥*𝙁𝘼𝙄𝙍𝙔 𝙏𝘼𝙄𝙇* 🔥
 └────────────┈𖣘
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
