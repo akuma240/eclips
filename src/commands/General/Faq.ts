@@ -45,9 +45,9 @@ export default class Command extends BaseCommand {
 ᚖ ────── ✪ ────── ᚖ
 
 📮 *Q6:* Where can I find NATSU bot?
-📑 *A:* NATSU is one of the bots owned by *𝘼𝙆𝙐𝙈𝘼* group. Incase you need other bots, use the command *!support* & you will get support group link in your DM.
+📑 *A:* NATSU is one of the bots owned by *akuma* group. Incase you need other bots, use the command *!support* & you will get support group link in your DM.
 ᚖ ────── ✪ ────── ᚖ
-📮 *Q7:* Can you hire a bot from *𝘼𝙆𝙐𝙈𝘼?*
+📮 *Q7:* Can you hire a bot from *akuma?*
 📑 *A:* Based on the copyrights, we don't hire bots to anyone thus the bots are free to use.
 ᚖ ────── ✪ ────── ᚖ
 
@@ -60,7 +60,7 @@ export default class Command extends BaseCommand {
  🎗 https://github.com/.
 ᚖ ────── ✪ ────── ᚖ
 
-📮 *Q10:* Is the project or the *𝘼𝙆𝙐𝙈𝘼* group sponsored?
+📮 *Q10:* Is the project or the *akuma* group sponsored?
 📑 *A:* Of course not, we're not sponsored either way but it could be your own pleasure to do that thus this is a non-profit organization.
 ᚖ ────── ✪ ────── ᚖ` }
         )
