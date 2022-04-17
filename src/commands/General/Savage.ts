@@ -24,13 +24,13 @@ export default class Command extends BaseCommand {
             mimetype: Mimetype.jpeg,
             caption: `🔥𝗛𝗘𝗟𝗟𝗢!❄️I'm 𝐀𝐊𝐔𝐌𝐀 an ordinary guy who loves watching anime & play games🎮. I'm a BCA Student🤍relationship with 𝐙𝐄𝐑𝐎❤️  
             
-🍀𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥;
+🍀𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩;
 Wa.me/+917892202052
 
-🍀𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆;
+🍀𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤;
 https://facebook.com/groups/600441174428472/
  
-🍀𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈;
+🍀𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦;
 https://www.instagram.com/akuma__24/?hl=en
 
 ⪼𝖲𝖾𝖾 𝗒𝖺𝗁 💟` }
