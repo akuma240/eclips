@@ -121,7 +121,7 @@ export default class Command extends BaseCommand {
       const text = `${head}\n\n${o}\n\n📈 You won *${gold} gold*.`;
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "© 𝙀𝙡𝙖𝙞𝙣𝙖 2022",
+        footerText: "© 𝐍𝐀𝐓𝐒𝐔 2022",
         buttons: buttons,
         headerType: 1,
       };
@@ -137,7 +137,7 @@ export default class Command extends BaseCommand {
       const text = `${head}\n\n${p}\n\n🎊 *Jackpot!* You won *${gold} gold*.`;
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "© 𝙀𝙡𝙖𝙞𝙣𝙖 2022",
+        footerText: "© 𝐍𝐀𝐓𝐒𝐔 2022",
         buttons: buttons,
         headerType: 1,
       };
