@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
         await axios.get(`https://api.simsimi.net/v2/?text=${chitoge}&lc=en`)
         .then((response) => {
                 // console.log(response);
-                const text = `🎍 *Elaina*:  ${response.data.success}`
+                const text = `🎍 *𝐍𝐀𝐓𝐒𝐔*:  ${response.data.success}`
                 M.reply(text);
             }).catch(err => {
                 M.reply(` *Baka!* `)
