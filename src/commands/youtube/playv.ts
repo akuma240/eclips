@@ -32,7 +32,7 @@ export default class Command extends BaseCommand {
                 contextInfo: {
                     externalAdReply: {
                         title: videos[0].title.substr(0, 30),
-                        body: `author : ${videos[0].author.name.substr(0, 20)}\n🔥 𝘼𝙆𝙐𝙈𝘼🔥`,
+                        body: `author : ${videos[0].author.name.substr(0, 20)}\n🔥 𝐀𝐊𝐔𝐌𝐀🔥`,
                         mediaType: 2,
                         thumbnailUrl: `https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`,
                         mediaUrl: video.url
