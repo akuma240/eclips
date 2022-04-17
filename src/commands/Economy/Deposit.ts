@@ -56,7 +56,7 @@ export default class Command extends BaseCommand {
     await this.client.deposit(user, amount);
     const buttonMessage: any = {
       contentText: `🎉 You have transferred *${amount} gold* to your bank.`,
-      footerText: "© 𝐄𝐥𝐚𝐢𝐧𝐚 2022",
+      footerText: "© Natsu 2022",
       buttons: buttons,
       headerType: 1,
     };
