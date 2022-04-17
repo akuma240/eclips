@@ -46,7 +46,7 @@ export default class Command extends BaseCommand {
         ? this.client.contacts[users.jid].short
         : `@${users.jid.split("@")[0]}`;
 
-      let text = `_*Elaina*\n *#${i}*\n*🏮USER* : ${username}\n*🎊XP*: ${users.Xp}\n*🏦BANK* : ${users.bank}\n*🪙gold* : ${users.wallet}\n`;
+      let text = `_*𝐍𝐀𝐓𝐒𝐔*\n *#${i}*\n*🔥USER* : ${username}\n*🎊XP*: ${users.Xp}\n*🏦BANK* : ${users.bank}\n*🪙gold* : ${users.wallet}\n`;
       message.push(text);
     }
     console.log(message);
