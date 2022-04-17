@@ -21,8 +21,8 @@ export default class Command extends BaseCommand {
         M.sender.jid,
         `    🔥MY MASTER GROUPS🔥
         
-       *🔥NATSU support:🔥* *https://chat.whatsapp.com/H6aIaXmMLglGL7VnekVYDG:*
-        *🔥support🔥* FACEBOOK GROUP🎉:*https://facebook.com/groups/600441174428472/*`,
+       *🔥𝐍𝐀𝐓𝐒𝐔 ꜱᴜᴘᴘᴏʀᴛ:🔥* *https://chat.whatsapp.com/IhQHex7AahB64RBZ20bbvb:*
+        *🔥ꜱᴜᴘᴘᴏʀᴛ🔥* My Instagram 🎉:*https://www.instagram.com/akuma__24/?hl=en*`,
            MessageType.text
         ))
         const n = [
