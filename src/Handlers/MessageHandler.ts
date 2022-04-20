@@ -146,10 +146,10 @@ export default class MessageHandler {
       return void null;
     if (!command)
       return void M.reply(
-        `🔥𝙎𝙀𝙉𝘿𝙎 𝙃𝙄𝙈/𝙃𝙀𝙍 𝙁𝙇𝙔𝙄𝙉𝙂!! 𝙐𝙎𝙀 *${this.client.config.prefix}help* 𝙁𝙄𝙍𝙀 𝘿𝙍𝘼𝙂𝙊𝙉 𝙁𝙄𝙎𝙏👊🔥.`
+        `🔥𝐒𝐄𝐍𝐃𝐒 𝐇𝐈𝐌/𝐇𝐄𝐑 𝐅𝐋𝐘𝐈𝐍𝐆!! 𝐔𝐒𝐄 *${this.client.config.prefix}help* 𝐅𝐈𝐑𝐄 𝐃𝐑𝐀𝐆𝐎𝐍 𝐅𝐈𝐒𝐓👊🔥.`
       );
     const user = await this.client.getUser(M.sender.jid);
-    if (user.ban) return void M.reply("𝕐𝕠𝕦'𝕣𝕖 𝕓𝕒𝕟𝕟𝕖𝕕 𝕗𝕣𝕠𝕞 𝕌𝕤𝕚𝕟𝕘 𝕥𝕙𝕖 𝕔𝕠𝕞𝕞𝕒𝕟𝕕𝕤.");
+    if (user.ban) return void M.reply("𝐘𝐨𝐮'𝐫𝐞 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐮𝐬𝐢𝐧𝐠 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬.");
     const state = await this.client.DB.disabledcommands.findOne({
       command: command.config.command,
     });
@@ -304,7 +304,7 @@ export default class MessageHandler {
   };
 
   handleState = async (): Promise<void> => {
-    const text = `𝙍𝙚𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙🔥 (NATSU👾)Prefix #`;
+    const text = `𝐑𝐞𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝🔥 (𝐍𝐀𝐓𝐒𝐔🔥)Prefix /`;
     await this.client.sendMessage(
       "120363023687661171@g.us",
       text,
