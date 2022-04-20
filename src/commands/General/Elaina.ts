@@ -9,8 +9,8 @@ import { ISimplifiedMessage } from "../../typings";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "Natsu",
-			aliases:['ela'],
+			command: "natsu",
+			aliases:['nat'],
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}chitoge`,
