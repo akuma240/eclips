@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
 		const term = joined.trim();
 		const images = [
 			"https://c.tenor.com/_8Yhn1O5qDgAAAPo/natsu-dragneel-smile.mp4",
-			"https://c.tenor.com/m9ipnIinnLIAAAPo/fairy-tail-natsu-dragneel.mp4",
+			"https://c.tenor.com/4EGkIFRHZvAAAAPo/natsu-lucy.mp4",
 		];
 		const selected = images[Math.floor(Math.random() * images.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
