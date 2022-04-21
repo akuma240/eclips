@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
     ];
 
     const buttonMessage: any = {
-      contentText: `𝐈'𝐌 𝐀𝐋𝐋 𝐅𝐈𝐑𝐄𝐃 𝐔𝐏!!,🔥🔥`,
+      contentText: `𝐈'𝐌 𝐀𝐋𝐋 𝐅𝐈𝐑𝐄𝐃 𝐔𝐏!!🔥🔥`,
       footerText: "🔥𝐍𝐀𝐓𝐒𝐔 𝐃𝐑𝐀𝐆𝐍𝐄𝐄𝐋🔥",
       buttons: buttons,
       headerType: 1,
