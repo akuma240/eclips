@@ -83,7 +83,7 @@ export default class Command extends BaseCommand {
           contentText: `Well done. You caught a level ${Level} ${this.client.util.capitalize(
             Name
           )}.`,
-          footerText: "©Elaina 2022",
+          footerText: "©𝐍𝐀𝐓𝐒𝐔 2022",
           buttons: buttons,
           headerType: 1,
         };
