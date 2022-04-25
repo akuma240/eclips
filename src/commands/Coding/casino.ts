@@ -20,12 +20,12 @@ export default class Command extends BaseCommand {
         (await this.client.sendMessage(
         M.sender.jid,
                 `*🔥Casino Group🔥*\n\n
-                 *𝐍𝐀𝐓𝐒𝐔🔥: Fun Group:https://chat.whatsapp.com/IhQHex7AahB64RBZ20bbvb\n\n
-                 *𝐍𝐀𝐓𝐒𝐔🔥 Gambling: 𝗖𝗮𝘀𝗶𝗻𝗼 *:https://chat.whatsapp.com/IhQHex7AahB64RBZ20bbvb/n `,
+                 *𝐍𝐀𝐓𝐒𝐔🔥: Fun Group:https://chat.whatsapp.com/EAjN9UVOurJ9cjlaVmSCj5\n\n
+                 *𝐍𝐀𝐓𝐒𝐔🔥 Gambling: 𝗖𝗮𝘀𝗶𝗻𝗼 *:https://chat.whatsapp.com/EAjN9UVOurJ9cjlaVmSCj5/n `,
            MessageType.text
         ))
         const n = [
-            'https://c.tenor.com/0OCyLe8flawAAAPo/natsu.mp4'
+            'https://c.tenor.com/h7hb0Jty-UgAAAPo/fairy-tail-cool.mp4'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
