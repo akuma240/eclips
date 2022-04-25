@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://telegra.ph/file/3666b3ce6e95ba3e8e6c4.mp4'
+            'https://c.tenor.com/-Sx7a0810mUAAAPo/natsu-fairytail.mp4'
         ]
         let well = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
@@ -66,12 +66,12 @@ export default class Command extends BaseCommand {
 🔮 ${this.client.config.prefix}beach
 💙 ${this.client.config.prefix}snow
 💙 ${this.client.config.prefix}snowc
-💙ENJOY_Made by 𝘼𝙆𝙐𝙈𝘼
+💙𝐄𝐍𝐉𝐎𝐘_ 𝐌𝐚𝐝𝐞 𝐛𝐲 𝐀𝐊𝐔𝐌𝐀
 ┌────────────┈❅
 │
-│   🔥 *𝙉𝘼𝙏𝙎𝙐*
+│   🔥 *𝐍𝐀𝐓𝐒𝐔*
 │
-│   *𝘼𝙆𝙐𝙈𝘼*🔥
+│   *𝐀𝐊𝐔𝐌𝐀*🔥
 │
 └────────────┈⁂
 
