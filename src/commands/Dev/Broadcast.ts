@@ -1,6 +1,6 @@
 /** @format */
 
-import { MessageType } from "@adiwajshing/baileys";
+import { MessageType, Mimetype } from "@adiwajshing/baileys";
 import MessageHandler from "../../Handlers/MessageHandler";
 import BaseCommand from "../../lib/BaseCommand";
 import WAClient from "../../lib/WAClient";
@@ -28,11 +28,13 @@ export default class Command extends BaseCommand {
 		if (!joined)
 			return void (await M.reply(`Please provide the Broadcast Message.`));
 		const term = joined.trim();
-		const images = [
+		const gifs = [
 			"https://c.tenor.com/_8Yhn1O5qDgAAAPo/natsu-dragneel-smile.mp4",
-			"https://c.tenor.com/4EGkIFRHZvAAAAPo/natsu-lucy.mp4",
+			"https://c.tenor.com/fTRklmsEKKYAAAPo/fairy-tail-singing.mp4",
+			"https://c.tenor.com/k7E14tWRsV4AAAPo/erza-erza-scarlet.mp4",
+			"https://c.tenor.com/gaYqh3-JrtkAAAPo/fairy-tail-erza.mp4",
 		];
-		const selected = images[Math.floor(Math.random() * images.length)];
+		const selected = gifs[Math.floor(Math.random() * gifs.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const chats: any = this.client.chats
 			.all()
@@ -41,8 +43,9 @@ export default class Command extends BaseCommand {
 			.map((jids) => (jids.includes("g.us") ? jids : null))
 			.filter((v) => v);
 		for (let i = 0; i < chats.length; i++) {
-			const text = `*🔥「 NATSU BROADCAST 」🔥*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
-			this.client.sendMessage(chats[i], { url: selected }, MessageType.image, {
+			const text = `*🔥「𝐍𝐀𝐓𝐒𝐔 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓」🔥*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
+			this.client.sendMessage(chats[i], { url: selected }, MessageType.video, {
+				mimetype: Mimetype.gif,
 				caption: `${text}`,
 				contextInfo: {
 					mentionedJid: M.groupMetadata?.participants.map((user) => user.jid),
