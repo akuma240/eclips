@@ -19,9 +19,9 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         (await this.client.sendMessage(
         M.sender.jid,
-        `    🔥𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 𝐆𝐑𝐎𝐔𝐏🔥
+        `    🔥𝐅𝐀𝐈𝐑𝐘 𝐓𝐀𝐈𝐋🔥
         
-       *🔥𝐍𝐀𝐓𝐒𝐔 𝐬𝐮𝐩𝐩𝐨𝐫𝐭:🔥* *https://chat.whatsapp.com/IhQHex7AahB64RBZ20bbvb:*
+       *🔥𝐌𝐲 𝐆𝐮𝐢𝐥𝐝:🔥* *https://chat.whatsapp.com/EAjN9UVOurJ9cjlaVmSCj5:*
         *🔥𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐌𝐲 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 🔥:*https://www.instagram.com/akuma__24/?hl=en*`,
            MessageType.text
         ))
@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
         let beckylynch = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url:beckylynch }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `Sent you the support Link in personal message \n` }
+            caption: `Join my Guild Fairy Tail 🔥 \n` }
         )
 
         }
