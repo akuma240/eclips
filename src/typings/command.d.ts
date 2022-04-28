@@ -40,5 +40,6 @@ export type TCategory =
   | "pokemon"
   | "nsfw"
   | "utils"
+  | "Idols"
   | "weeb"
   | "category";
