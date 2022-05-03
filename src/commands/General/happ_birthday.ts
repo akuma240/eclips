@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`Profile Picture not Accessible of ${username}`)
             pfp =
-                'https://i.ibb.co/KzWgj18/IMG-20220407-WA0372.jpg'
+                'https://www.linkpicture.com/q/789_2.jpg'
         }
         await M.reply(
             await request.buffer(
@@ -41,7 +41,7 @@ export default class Command extends BaseCommand {
             MessageType.image,
             undefined,
             undefined,
-            `Cheers to you for another trip around the sun The day is all yours 🔥Maybe you receive the greatest of joys and everlasting bliss. You are a gift yourself, and you deserve the best of everything. Happy birthday•\n 🥂🎂🔥 *HAPPY BIRTHDAY* 🎂🥂\n🥳🥳🥳✨ Enyoy this special day in celebration of a most wonderful you🙂🥳🤩😍-𝐀𝐊𝐔𝐌𝐀 *@${user.split('@')[0]}*\n\n`
+            `HAPPY BIRTHDAY MY FRIEND, I WISH YOU A VERY LONG HAPPY LIFE-ET.GLITCH*@${user.split('@')[0]}*\n\n`
         )
     }
 }
