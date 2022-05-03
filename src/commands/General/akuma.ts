@@ -8,7 +8,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'zhongli',
+            command: 'GLITCH',
             description: 'Displays info about zhongli.',
             category: 'general',
             usage: `${client.config.prefix}savage`
@@ -22,11 +22,7 @@ export default class Command extends BaseCommand {
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.image, {quoted:M.WAMessage,
             mimetype: Mimetype.jpeg,
-            caption: ` *𝗭𝗛𝗢𝗡𝗚𝗟𝗜* \n\n *Description: A Mysterious Expert Contracted By The Wangsheng Funeral Parlor.Extremely Knowledgeable In All Things.
-            
-🍀OWNER WHATSAPP;
-Wa.me/+919567506478;
-⪼TAKE CARE TRAVELLER` }
+            caption: `HELLO EVERYONE I'M ET.GLITCH. I'M THE OWNER OF THE BOT ZHONGLI, SO IF YOU NEED ANY HELP REALTED TO THE BOT YOU CAN MSG ME DIRECTLY OR JOIN MY SUPPORT GRP` }
         )
     }
 }
