@@ -46,7 +46,7 @@ export default class Command extends BaseCommand {
     const pack = parsedArgs.joined.split("|");
     if (!pack[1])
       return void M.reply(
-        `Give me the new name and author of the sticker, Baka!\nExample: ${this.client.config.prefix}steal | By | Juice-Bot `
+        `Give me the new name and author of the sticker\nExample: ${this.client.config.prefix}steal | By | GLITCH `
       );
     const filename = `${tmpdir()}/${Math.random().toString(36)}`;
     const getQuality = (): number => {
@@ -99,8 +99,8 @@ export default class Command extends BaseCommand {
       })();
       return {
         categories,
-        pack: pack[1] || "𝐙𝐄𝐑𝐎❤️",
-        author: pack[2] || "𝐀𝐊𝐔𝐌𝐀",
+        pack: pack[1] || "ETERNAL",
+        author: pack[2] || "GLITCH",
         quality,
         type: StickerTypes[
           parsedArgs.flags.includes("--crop") ||
