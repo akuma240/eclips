@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         (await this.client.sendMessage(
         M.sender.jid,
-        ` 🐉LIYUE
+        ` 🐉LIYUE'
         
        *🐉OWNERS GROUP* *https://chat.whatsapp.com/FP35bbPbK4L4p7DLdIRoT1*',
            MessageType.text
