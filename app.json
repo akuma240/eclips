@@ -1,6 +1,6 @@
 {
-  "name": "NATSU",
-  "description": "A WhatsApp Bot With Rich Anime Features. ",
+  "name": "ZHONGLI",
+  "description": "Hidden Archon Of Liyue",
   "keywords": [
       "bot",
       "whatsapp",
@@ -11,9 +11,9 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
   ],
-  "website": "https://github.com/akumasugi/Savage#readme",
-  "repository": "https://github.com/akumasugi/Savage.git",
-  "logo": "https://telegra.ph/file/11e741582367e0d63c66f.jpg",
+  "website": "https://github.com/NemasisDarkX/eclips#readme",
+  "repository": "https://github.com/NemasisDarkX/eclips.git",
+  "logo": "https://i.pinimg.com/originals/6d/d9/ed/6dd9ed67f10535379dcd359fd1d2da03.gif",
   "success_url": "/",
   "env": {
       "PREFIX": {
