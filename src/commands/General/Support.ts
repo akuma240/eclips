@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
         M.sender.jid,
         `    🐉LIYUE
         
-       *🐉OWNERS GROUP* *https://chat.whatsapp.com/FP35bbPbK4L4p7DLdIRoT1*
+       *🐉OWNERS GROUP* *https://chat.whatsapp.com/FP35bbPbK4L4p7DLdIRoT1*',
            MessageType.text
         ))
         const n = [
