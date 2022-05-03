@@ -146,10 +146,10 @@ export default class MessageHandler {
       return void null;
     if (!command)
       return void M.reply(
-        `🔥𝐒𝐄𝐍𝐃𝐒 𝐇𝐈𝐌/𝐇𝐄𝐑 𝐅𝐋𝐘𝐈𝐍𝐆!! 𝐔𝐒𝐄 *${this.client.config.prefix}help* 𝐅𝐈𝐑𝐄 𝐃𝐑𝐀𝐆𝐎𝐍 𝐅𝐈𝐒𝐓👊🔥.`
+        `🐉 IF YOU WANT HELP PLEASE USE *${this.client.config.prefix}help* .`
       );
     const user = await this.client.getUser(M.sender.jid);
-    if (user.ban) return void M.reply("𝐘𝐨𝐮'𝐫𝐞 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐮𝐬𝐢𝐧𝐠 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬.");
+    if (user.ban) return void M.reply("YOU ARE BANNED BY THE OWNER FROM USIG ANY COMMANDS");
     const state = await this.client.DB.disabledcommands.findOne({
       command: command.config.command,
     });
@@ -165,11 +165,11 @@ export default class MessageHandler {
       command.config?.modsOnly &&
       !this.client.config.mods?.includes(M.sender.jid)
     ) {
-      return void M.reply(`𝐨𝐧𝐥𝐲 𝐛𝐞𝐚𝐮𝐭𝐢𝐟𝐮𝐥 𝐩𝐞𝐨𝐩𝐥𝐞 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝..`);
+      return void M.reply(`ONLY THE OWNER CAN USE THIS COMMAND`);
     }
     if (command.config?.adminOnly && !M.sender.isAdmin)
       return void M.reply(
-        `𝙆𝙣𝙤𝙬 𝙔𝙤𝙪𝙧 𝙋𝙡𝙖𝙘𝙚 𝙛𝙤𝙤𝙡 𝙩𝙝𝙞𝙨 𝙘𝙤𝙢𝙢𝙖𝙣𝙙 𝙞𝙨 𝙤𝙣𝙡𝙮 𝙢𝙚𝙖𝙣𝙩 𝙛𝙤𝙧 𝙩𝙝𝙚 𝙜𝙧𝙤𝙪𝙥 𝙖𝙙𝙢𝙞𝙣𝙨, 𝘽𝙖𝙠𝙖!`
+        `THIS COMMAND IS ONLY FOR THE GROUP OWNER`
       );
     try {
       await command.run(M, this.parseArgs(args));
@@ -284,7 +284,7 @@ export default class MessageHandler {
       ];
       const buttonMessage: any = {
         contentText: `*A claimable character Appeared!*\n\n🎀 *Name: ${chara.name}*\n\n💬 *About:* ${chara.about}\n\n📛 *Source: ${source[0].anime.title}*\n\n💰 *Price: ${price}*\n\n*[Use ${this.client.config.prefix}claim to have this character in your gallery]*`,
-        footerText: "🔥 ℕ𝔸𝕋𝕊𝕌 🔥",
+        footerText: "🐉 ZHONGLI 🐉",
         buttons: buttons,
         headerType: 4,
         imageMessage: media?.message?.imageMessage,
@@ -304,18 +304,18 @@ export default class MessageHandler {
   };
 
   handleState = async (): Promise<void> => {
-    const text = `𝐑𝐞𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝🔥 (𝐍𝐀𝐓𝐒𝐔🔥)Prefix /`;
+    const text = `𝐑𝐞𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 (ZHONGLI 🐉)Prefix /`;
     await this.client.sendMessage(
-      "120363023687661171@g.us",
+      "120363023392472778@g.us",
       text,
       MessageType.text
     );
   };
 
   sendReconnectMessage = async (): Promise<void> => {
-    const text = `I'm back, Darling !! 💖w💖`;
+    const text = `MY STRENGTH IS RETURNING!! 🐉`;
     await this.client.sendMessage(
-      "917892202052@s.whatsapp.net",
+      "919567506478@s.whatsapp.net",
       text,
       MessageType.text
     );
