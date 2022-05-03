@@ -306,7 +306,7 @@ export default class MessageHandler {
   handleState = async (): Promise<void> => {
     const text = `𝐑𝐞𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 (ZHONGLI 🐉)Prefix /`;
     await this.client.sendMessage(
-      "120363023392472778@g.us",
+      "120363044855586996@g.us",
       text,
       MessageType.text
     );
