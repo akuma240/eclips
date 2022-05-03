@@ -19,12 +19,12 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://telegra.ph/file/293c68ca4a004fdd22c7f.mp4'
+            'https://c.tenor.com/HNUlYL7ce4sAAAPo/zhongli-genshin-imact-zhongli.mp4'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {
             mimetype: Mimetype.gif,
-            caption: ` 𝐎𝐢𝐢🔥 𝐎𝐢𝐢🔥 𝐎𝐢𝐢 , 𝐁𝐚𝐤𝐤𝐚🐉, \n\n 𝐈'𝐦 𝐚𝐥𝐰𝐚𝐲𝐬 𝐚𝐜𝐭𝐢𝐯𝐞 🔥. 🔥 \n` }
+            caption: `HOW CAN I HELP YOU TRAVELLER\n` }
         )
     }
 }
