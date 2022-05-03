@@ -1,3 +1,4 @@
+
 import { MessageType, Mimetype } from '@adiwajshing/baileys'
 import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
@@ -19,9 +20,8 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         (await this.client.sendMessage(
         M.sender.jid,
-        ` 🐉LIYUE'
-        
-       *🐉OWNERS GROUP* *https://chat.whatsapp.com/FP35bbPbK4L4p7DLdIRoT1*',
+        `    LIYUE
+        *OWNERS GROUP:*https://chat.whatsapp.com/FP35bbPbK4L4p7DLdIRoT1*`,
            MessageType.text
         ))
         const n = [
@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
         let beckylynch = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url:beckylynch }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `IF YOU WANT ANY HELP RELATED TO THE BOT \n` }
+            caption: `IF NEED ANY HELP RELATED TO THE BOT\n` }
         )
 
         }
