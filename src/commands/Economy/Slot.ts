@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
     M: ISimplifiedMessage,
     { joined }: IParsedArgs
   ): Promise<void> => {
-    if (M.from !== "120363023588813833@g.us")
+    if (M.from !== "120363023392472778@g.us")
       return void M.reply(
         `You can't bet here. Use ${this.client.config.prefix}support to get casino group link.`
       );
@@ -137,7 +137,7 @@ export default class Command extends BaseCommand {
       const text = `${head}\n\n${p}\n\n🎊 *Jackpot!* You won *${gold} gold*.`;
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "© 𝐍𝐀𝐓𝐒𝐔 2022",
+        footerText: "©ZHONGLI",
         buttons: buttons,
         headerType: 1,
       };
