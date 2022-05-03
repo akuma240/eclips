@@ -19,19 +19,18 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         (await this.client.sendMessage(
         M.sender.jid,
-        `    🔥𝐅𝐀𝐈𝐑𝐘 𝐓𝐀𝐈𝐋🔥
+        `    🐉LIYUE
         
-       *🔥𝐌𝐲 𝐆𝐮𝐢𝐥𝐝:🔥* *https://chat.whatsapp.com/EAjN9UVOurJ9cjlaVmSCj5:*
-        *🔥𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐌𝐲 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 🔥:*https://www.instagram.com/akuma__24/?hl=en*`,
+       *🐉OWNERS GROUP* *https://chat.whatsapp.com/FP35bbPbK4L4p7DLdIRoT1*
            MessageType.text
         ))
         const n = [
-            'https://telegra.ph/file/3b819b2cb2be451775dde.mp4'
+            'https://c.tenor.com/atzwyXaWah8AAAPo/genshin-impact-zhongli-genshin.mp4'
         ]
         let beckylynch = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url:beckylynch }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `Join my Guild Fairy Tail 🔥 \n` }
+            caption: `IF YOU WANT ANY HELP RELATED TO THE BOT \n` }
         )
 
         }
