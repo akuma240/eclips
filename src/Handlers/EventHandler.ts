@@ -53,7 +53,7 @@ export default class EventHandler {
       }
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "🐉 𝐍𝐀𝐓𝐒𝐔 🐉",
+        footerText: "🐉 ZHONGLI 🐉",
         buttons: buttons,
         headerType: 1,
       };
@@ -84,15 +84,15 @@ export default class EventHandler {
     const promote = event.action === "promote";
     const demote = event.action === "demote";
     /*const text = add
-			? `- ${group.subject || "___"} -\n\n🔥 *Group Description:*\n${
+			? `- ${group.subject || "___"} -\n\n *Group Description:*\n${
 					group.desc
 			  }\n\nHope you follow the rules and have fun!\n\n*‣ ${event.participants
 					.map((jid) => `@${jid.split("@")[0]}`)
 					.join(", ")}*`
 			: event.action === "remove"
-			? `𝑮𝒐𝒐𝒅𝒃𝒚𝒆 *@${
+			? `SAYONARA *@${
 					event.participants[0].split("@")[0]
-			  }* 🔥𝒑𝒍𝒆𝒂𝒔𝒆 𝒅𝒐𝒏'𝒕 𝒄𝒐𝒎𝒆 𝒃𝒂𝒄𝒌 𝒉𝒆𝒓𝒆 𝒂𝒈𝒂𝒊𝒏n .`
+			  }* I HOPE TO SEE YOU AGAIN MY FRIEND .`
 			: `Ara Ara looks like *@${
 					event.participants[0].split("@")[0]
 			  }* got ${this.client.util.capitalize(event.action)}d${
@@ -119,20 +119,20 @@ export default class EventHandler {
         .setText("member-count", `- ${memberCount} member !`)
         .setText("title", "hello")
         .setText("message", `welcome to ${group.subject}`)
-        .setBackground("https://i.ibb.co/8B6Q84n/LTqHsfYS.jpg")
+        .setBackground("https://www.linkpicture.com/q/LPic62714f5ae55a21560780099.jpg")
         .toAttachment();
       return void (await this.client.sendMessage(
         event.jid,
         welcome.toBuffer(),
         MessageType.image,
         {
-          caption: `- ${group.subject || "___"} -\n\n🔥 *Group Description:*\n${
+          caption: `- ${group.subject || "___"} -\n\n *Group Description:*\n${
             group.desc
-          }\n\n🔥𝐎𝐰𝐧𝐞𝐫𝐬𝐡𝐢𝐩
+          }\n\n🐉
 
-𝐂𝐫𝐞𝐚𝐭𝐞𝐝, 𝐩𝐨𝐰𝐞𝐫𝐞𝐝 & 𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐞𝐝 𝐛𝐲 *𝐙𝐄𝐑𝐎*
+PRESENTED BY ET.GLITCH
 
-━━❰🔥🔥!\n\n*‣ ${event.participants
+━━❰🐉🐉!\n\n*‣ ${event.participants
             .map((jid) => `@${jid.split("@")[0]}`)
             .join(", ")}*`,
           contextInfo,
@@ -155,7 +155,7 @@ export default class EventHandler {
         .setText("member-count", `- ${memberCount} member !`)
         .setText("message", `we're probably not gonna miss you`)
         .setBackground(
-          "https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"
+          "https://www.linkpicture.com/q/456_1.jpg"
         )
         .toAttachment();
       return void (await this.client.sendMessage(
@@ -163,9 +163,9 @@ export default class EventHandler {
         goodbye.toBuffer(),
         MessageType.image,
         {
-          caption: `𝑮𝒐𝒐𝒅𝒃𝒚𝒆 *@${
+          caption: `SAYONARA *@${
             event.participants[0].split("@")[0]
-          }* 🔥, 𝒑𝒍𝒆𝒂𝒔𝒆 𝒅𝒐𝒏'𝒕 𝒄𝒐𝒎𝒆 𝒃𝒂𝒄𝒌 𝒉𝒆𝒓𝒆 𝒂𝒈𝒂𝒊𝒏.`,
+          }* I HOPE TO SEE YOU AGAIN MY FRIEND .`,
           contextInfo,
         }
       ));
